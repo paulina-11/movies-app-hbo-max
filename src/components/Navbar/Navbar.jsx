@@ -50,13 +50,22 @@ const NavbarOne = () => {
             </div>
 
             <div>
-              <ul className='d-none d-lg-block'>
-                <div className='d-flex '>
-                  <li className='pr-3'>Peliculas</li>
-                  <li>Series</li>
+              <div className='d-none d-lg-block'>
+                <div className='d-flex header__list '>
+                  <a className='header__item '>
+                    <div className='header__item-p'>
+                      Peliculas
+                    </div>
+                  </a>
+                  <a className='header__item'>
+                    <div>
+                      Series
+                    </div>
+                  </a>
                 </div>
-              </ul>
+              </div>
             </div>
+
           </div>
 
           <a className='navbar-brand' href='#'>
@@ -66,12 +75,20 @@ const NavbarOne = () => {
           </a>
 
           <div>
-            <ul className='d-none d-lg-block '>
-              <div className='d-flex '>
-                <li className='pr-3'>Iniciar Sesión</li>
-                <li>Suscríbete</li>
+            <div className='d-none d-lg-block'>
+              <div className='d-flex header__list '>
+                <a className='header__item '>
+                  <div className='header__item-p'>
+                    Iniciar Sesión
+                  </div>
+                </a>
+                <a className='header__item'>
+                  <div className='header__item-button'>
+                    Suscríbete
+                  </div>
+                </a>
               </div>
-            </ul>
+            </div>
           </div>
 
         </div>
