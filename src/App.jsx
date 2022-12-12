@@ -1,7 +1,10 @@
+import NavbarOne from './components/Navbar/Navbar'
+
 function App () {
   return (
     <div className='App'>
-      <h1>Hola desde app</h1>
+      <NavbarOne />
+      <h1>Hola desde app </h1>
     </div>
   )
 }
