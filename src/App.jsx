@@ -1,10 +1,14 @@
-import NavbarOne from './components/Navbar/Navbar'
+import NavbarOne from './components/Navbar'
+import Home from './pages/Home/Home'
+import MainRoutes from './routes'
 
 function App () {
   return (
-    <div className='App'>
+    <div className='fondo'>
       <NavbarOne />
-      <h1>Hola desde app </h1>
+      <MainRoutes />
+      <Home />
+
     </div>
   )
 }

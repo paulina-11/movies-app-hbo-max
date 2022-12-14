@@ -1,4 +1,5 @@
 import Logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 const NavbarOne = () => {
   return (
@@ -68,25 +69,25 @@ const NavbarOne = () => {
 
           </div>
 
-          <a className='navbar-brand' href='#'>
+          <Link className='navbar-brand' to='/'>
             <div>
               <img className='header__logo' src={Logo} alt='logo' />
             </div>
-          </a>
+          </Link>
 
           <div>
             <div className='d-none d-lg-block'>
               <div className='d-flex header__list '>
-                <a className='header__item '>
+                <Link to='login' className='header__item '>
                   <div className='header__item-p'>
                     Iniciar Sesión
                   </div>
-                </a>
-                <a className='header__item'>
+                </Link>
+                <Link to='login' className='header__item'>
                   <div className='header__item-button'>
                     Suscríbete
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
