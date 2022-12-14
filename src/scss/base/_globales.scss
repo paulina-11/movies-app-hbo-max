@@ -4,6 +4,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -13,6 +14,7 @@ body {
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
     color: v.$negro;
+   
 }
 
 img {
