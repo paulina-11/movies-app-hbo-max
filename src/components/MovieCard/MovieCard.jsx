@@ -1,15 +1,24 @@
 import React from 'react'
 
-const MovieCard = () => {
+const MovieCard = ({
+  title,
+  description,
+  likes,
+  image,
+  date
+}) => {
   return (
-    <li className='cardMovie'>
-      <div>
-        <img className='cardMovie__imgs' src='https://www.gonvill.com.mx/imagenes/9788445/978844500068.JPG' alt='pelicula' />
+    <ul>
+      <li className='cardMovie'>
         <div>
-          <h3 className='cardMovie__title'>El señor de los anillos</h3>
+          <img className='cardMovie__imgs' src={image} alt={title} />
+          <div>
+            <h3 className='cardMovie__title'>{title}</h3>
+            <p className='cardMovie__description'>{description}</p>
+          </div>
         </div>
-      </div>
-    </li>
+      </li>
+    </ul>
   )
 }
 

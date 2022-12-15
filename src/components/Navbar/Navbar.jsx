@@ -55,7 +55,7 @@ const NavbarOne = () => {
                 <div className='d-flex header__list '>
                   <a className='header__item '>
                     <div className='header__item-p'>
-                      Peliculas
+                      Agregar películas
                     </div>
                   </a>
                   <a className='header__item'>

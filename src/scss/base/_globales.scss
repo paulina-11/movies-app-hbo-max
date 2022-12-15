@@ -1,52 +1,64 @@
-@use 'variables' as v;
-@use 'mixins' as m;
+@use "variables" as v;
+@use "mixins" as m;
 
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-  
+
 body {
-    font-family: v.$fuente_principal;
-    font-size: 1.6rem;
-    color: v.$negro;
-   
+  font-family: v.$fuente_principal;
+  font-size: 1.6rem;
+  color: v.$negro;
+  background-image: url("https://play.hbomax.com/390f9937ad43fc0e763143a8fcd3fb0a.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-attachment: fixed;
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
-a{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    
+a {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
 }
 
-
-button{
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-h1,h2,h3{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
-ul{
-    padding: 0;
-    margin: 0;
+ul {
+  padding: 0;
+  margin: 0;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
