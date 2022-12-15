@@ -5,7 +5,7 @@
 .movieContainer {
   display: grid;
   gap: 3rem;
-  padding: 4rem;
+  padding: 13rem 4rem;
   justify-content: center;
 
   @include m.tablet {

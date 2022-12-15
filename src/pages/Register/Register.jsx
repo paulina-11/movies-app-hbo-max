@@ -1,8 +1,9 @@
 import React from 'react'
+import LandingRegister from '../../components/LandingRegister'
 
 const Register = () => {
   return (
-    <div>Register</div>
+    <LandingRegister />
   )
 }
 
