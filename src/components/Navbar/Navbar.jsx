@@ -18,31 +18,31 @@ const NavbarOne = () => {
               <div className='offcanvas-body'>
                 <ul className='navbar-nav justify-content-end flex-grow-1 pe-3'>
                   <li className='nav-item'>
-                    <a className='nav-link active' aria-current='page' href='#'>Inicio</a>
+                    <Link to='/' className='nav-link active' aria-current='page' href='#'>Inicio</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Series</a>
+                    <Link to='/' className='nav-link' href='#'>Series</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Películas</a>
+                    <Link to='addmovie' className='nav-link' href='#'>Agregar películas</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Originales</a>
+                    <Link to='/' className='nav-link' href='#'>Originales</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Recien Añadidos</a>
+                    <Link to='/' className='nav-link' href='#'>Recien Añadidos</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Últimos Días</a>
+                    <Link to='/' className='nav-link' href='#'>Últimos Días</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Próximamente</a>
+                    <Link to='/' className='nav-link' href='#'>Próximamente</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>En tendencia</a>
+                    <Link to='/' className='nav-link' href='#'>En tendencia</Link>
                   </li>
                   <li className='nav-item'>
-                    <a className='nav-link' href='#'>Disfruta gratis</a>
+                    <Link to='/' className='nav-link' href='#'>Disfruta gratis</Link>
                   </li>
 
                 </ul>
@@ -53,16 +53,16 @@ const NavbarOne = () => {
             <div>
               <div className='d-none d-lg-block'>
                 <div className='d-flex header__list '>
-                  <a className='header__item '>
+                  <Link to='addmovie' className='header__item '>
                     <div className='header__item-p'>
                       Agregar películas
                     </div>
-                  </a>
-                  <a className='header__item'>
+                  </Link>
+                  <Link to='/' className='header__item'>
                     <div>
                       Series
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const NavbarOne = () => {
                     Iniciar Sesión
                   </div>
                 </Link>
-                <Link to='login' className='header__item'>
+                <Link to='register' className='header__item'>
                   <div className='header__item-button'>
                     Suscríbete
                   </div>

@@ -7,7 +7,7 @@ const Dashboard = () => {
   useEffect(() => {
     getMovies()
   }, [])
-  const [getMovies, { error, data }] = useLazyQuery(GET_MOVIES)
+  const [getMovies, { data }] = useLazyQuery(GET_MOVIES)
   return (
     <div className='movieContainer'>
       {
