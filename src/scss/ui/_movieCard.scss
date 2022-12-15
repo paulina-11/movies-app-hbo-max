@@ -1,7 +1,6 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
 .cardMovie {
-  /* background-color: #FFF;
-    padding: 2rem;
-    color: #000; */
   border-radius: 1rem;
   text-align: center;
   transition: 0.5s;
@@ -15,11 +14,18 @@
   &__imgs{
     width: 100%;
     border-radius: 10px;
+
+    @include m.tablet {
+    height: 340px;
+  }
   }
   &__title{
     font-size: 2rem;
     margin: 1.5rem;
     text-transform: uppercase;
-    color: #FFF;
+    color: v.$titulos;
+  }
+  &__description{
+    color: v.$titulos;
   }
 }
